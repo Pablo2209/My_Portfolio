@@ -36,10 +36,10 @@
                 <a class="nav-link text-white" href="#about">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#work">Experience</a>
+                <a class="nav-link text-white" href="#Experience">Experience</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#contact">Works</a>
+                <a class="nav-link text-white" href="#Works">Works</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#contact">Contact</a>
@@ -51,15 +51,18 @@
   
       <header class="hero text-light text-right pt-5 text-center container-fluid ">
         <div class="container">
-          <h2 class="display-3  my-5" style="font-family: 'Cabin Bold';">I am</h1>
-          <hr color="white" size=1>  
-          <H1 class="my-5 font-weight-bold " >PABLO</H1>
+          <div>
+            <h2 class="display-3  my-5" style="font-family: 'Cabin Bold';">I am</h2>
+          </div>
+          <div>
+            <H1 class="my-5 font-weight-bold " >PABLO</H1>
+          </div>
         </div>
       </header>
       
       <!-- Mi informacion -->
-      <section class="container" >
-        <div class="text-center mt-5" >
+      <section id="about" class="container" >
+        <div class="text-center mt-5 mb-5" >
           <h1>My Information</h1>
         </div>
         <div class="row" >
@@ -73,26 +76,45 @@
       </section>
 
       <!--Mi experiencia-->
-      <section class="container" >
-        <div class="text-center" >
+      <section id="Experience" class="container" >
+        <div class="text-center mt-5 " >
           <h1>My Experience
           </h1>
         </div>
-        <div class="row">
-          <div class="col-6" >
-            <img src="assets/img/card5.jpg" alt="">
-
+        <hr color="black" size=1 width="200px">  
+        <div class="card-deck my-5 ">
+          <div class="card">
+            <img src="assets/img/IyC.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Instrumentation and control
+              </h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
           </div>
-          <div class="col-6" >
 
+          <div class="card">
+            <img src="assets/img/SC.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SCADA</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img style="height: 260px;" src="assets/img/HTML.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tools for WEB design
+              </h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
           </div>
         </div>
       </section>
 
        <!--Mis ultimos trabajos-->
-       <section class=" trabajos " >
-         <div class="text-center pt-5 " >
-           <h1>Mis ultimos trabajos</h1>
+       <section id="Works" class=" trabajos " >
+         <div class="text-center pt-3 text-white " >
+           <h1>My Last Works</h1>
          </div>
          <hr color="white" size=1 width="200px">  
          <div>
@@ -101,22 +123,27 @@
               <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Fresenius Kabi</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">Data control and supervision.
+                </p>
               </div>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#Fresenius">Ver más</button>
             </div>
             <div class="card">
               <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Autopista Central</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text">Control system for rainwater extraction.
+                </p>
               </div>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#ACSA">Ver más</button>
             </div>
             <div class="card">
-              <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+              <img style="height: 281px;" src="assets/img/card3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Transelec</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text">High voltage line measurement system.</p>
               </div>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#Transelec">Ver más</button>
             </div>
           </div>
          </div>
@@ -129,13 +156,7 @@
                 <h5 class="card-title">MOP</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               </div>
-            </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              </div>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#MOP">Ver más</button>
             </div>
             <div class="card">
               <img src="..." class="card-img-top" alt="...">
@@ -143,10 +164,107 @@
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
               </div>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#Fresenius">Ver más</button>
+            </div>
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#Fresenius">Ver más</button>
             </div>
           </div>
          </div>
        </section>
+
+       <!--Section for cards-->
+       <div class="modal fade" id="Fresenius" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Fresenius Kabi</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid mb-3" src="assets/img/card1.jpg" alt="Card image cap">
+  
+              <p>Project for supervision and control of new production lines.
+              </p>
+
+              <p>
+                My main functions include the programming of the control system, using a Siemens S7-400 controller.
+              </p>
+              <p>
+                The main control network included an ASi-Bus network and a Profibus network was used for the communication of sensors and measurements of variables.
+              </p>
+              <p>
+                Currently the system is working and producing medicine which is packed in glass ampoules.
+
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="ACSA" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Autopista Central</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid mb-3" src="assets/img/card2.jpg" alt="Card image cap">
+  
+              <p>Control system, whose purpose is to extract rainwater from the low-level crossings that are found along the Autopista Central.
+              </p>
+
+              <p>
+                Project which I lead, developing all the control logic for the PLCs, in addition to extracting data through ModBus communication, the control of drives and supervision of sensors installed in the technical booths.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="Transelec" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Transelec</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid mb-3" src="assets/img/card3.jpg" alt="Card image cap">
+  
+              <p>Design and implementation of electrical variables measurement system for high voltage towers located in the north of Chile. Among which are; measurement of temperature, inclination and voltage of the conductor.
+              </p>
+              <p>
+                In addition, a system for measuring meteorological variables is implemented; Ambient temperature, relative humidity, rain, etc.
+              </p>
+              <p>
+                These equipments help to determine possible electrical discharges that can occur mainly due to the humidity of the environment and the dirt of the cables.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!--Typeform-->
       <section id="contact" class="container my-5">
@@ -169,164 +287,6 @@
           </div>
         </div>     
     </footer>
-      
-
-      <section class="container my-3-">
-        <div class=" mt-4" style="  ">
-            <div class="row no-gutters">
-              <div class="col-md-6">
-                <img style="widows: 482px; ;" src="assets/img/principal.jpg" class="card-img" alt="...">
-              </div>
-              <div class="col-md-6">
-                <div class="card-body">
-                  <h5 class="card-title pr-5 mt-3 mb-3" style="font-family: 'Cabin Bold'; font-size: 40px; " > PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h5>
-                  <hr color="black" size=1>
-                  <p class="card-text mt-4" style="font-family: 'Cabin Bold'; font-size: 20px;"  >110 MIN / 6 A 8 PORCIONES</p>
-                  <div >
-                    <button type="button" class="btn btn-outline-secondary mt-5" style="font-family: 'Cabin Regular'; font-size: 16px; " 
-                    data-container="body" data-toggle="popover" data-trigger="hover" bg-darkdata-placement="bottom" data-content="Presiona para enviar a tu correo" >Enviar por correo</button> 
-
-                    <button type="button" class="btn btn-outline-secondary mt-5 ml-3" style="font-family: 'Cabin Regular'; font-size: 16px; " 
-                    data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-      </section>
-
-     
-      <!--Carousel-->
-      <section>
-      <div class="container my-5 py-3 d-none d-sm-block">
-        <div class="row ">
-          <div class="col-12 bg-secondary text-white rounded pt-4 pb-5  bg-white">
-            <div id="blogCarousel" class="carousel slide" data-ride="carousel">
-  
-                <ol class="carousel-indicators  ">
-                    <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#blogCarousel" data-slide-to="1"></li>
-                  </ol>
-  
-              <div class="carousel-inner  ">
-  
-                <div class="carousel-item active text-center">
-                  <div class="row">
-                    <div class="col-3 ">
-                      <img class="sl-1" src="assets/img/slider-1.png" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="sl-1" src="assets/img/slider-2.png" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="sl-1" src="assets/img/slider-3.png" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="sl-1" src="assets/img/slider-4.png" alt="">
-                    </div>
-                  </div>
-                </div>
-  
-                <div class="carousel-item text-center">
-                  <div class="row">
-                    <div class="col-3">
-                        <img class="sl-1" src="assets/img/slider-5.png" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="sl-1" src="assets/img/slider-6.png" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="sl-1" src="assets/img/slider-7.png" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="sl-1" src="assets/img/slider-8.png" alt="">
-                    </div>
-                  </div>
-                </div>
-  
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr color="black" size=1>
-      </div>
-
-    </section>
-    
-
-        
-        
-            <div class="col-6 preparacion " style="font-family: 'Cabin Regular'; font-size: 20px;"  >
-                <p style="text-decoration: underline;" >
-                    PREPARACIÓN 
-                </p>   
-                <br>         
-                <p>1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales.
-                </p>    
-                <br>    
-                <p>
-                2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar. 
-                </p> 
-                <br>
-                <p>
-                3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar. 
-                </p>
-                <br> 
-                <p>
-                4. Calentar el horno a 220C. 
-                </p>
-                <br>
-                <p>
-                5. Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el queso.                          
-                </p>
-            </div>
-        </div>
-        <hr color="black" size=1>
-    </section>
-
-    <!--Cards-->
-    <section class="container">
-        <h1 class="text-center py-3" style="font-family: 'Cabin Bold'; font-size: 40px"> 
-            RECETAS RELACIONADAS
-        </h1>
-        <div class="card-deck mb-5">
-            <div class="card">
-              <img src="assets/img/recipe-card-1.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title" style="font-family: 'Cabin Bold'; font-size: 23px;"  >PANQUEQUES CON MANJAR Y CREMA</h5>
-                <p class="card-text" style="font-family: 'Cabin Bold'; font-size: 16px"  >Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="assets/img/recipe-card-2.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title" style="font-family: 'Cabin Bold'; font-size: 23px;"  >TIRAMISÚ</h5>
-                <p class="card-text" style="font-family: 'Cabin Bold'; font-size: 16px" >Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="assets/img/recipe-card-3.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title" style="font-family: 'Cabin Bold'; font-size: 23px;"  >PLATEADA</h5>
-                <p class="card-text" style="font-family: 'Cabin Bold'; font-size: 16px"  >Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
-              </div>
-            </div>
-          </div>
-    </section>
-    
-    <div class="card tarjeta2  ">
-        <div class="card-body text-center tarjeta3  text-white  ">
-          <h5 class="card-title" style="font-family: 'Cabin Bold'; font-size: 40px; " >SUSCRÍBETE EN NUESTRO NEWSLETTER</h5>
-          <p class="card-text" style="font-family: 'Lobster Regular'; font-size: 40px; " >y obtén las mejores recetas que tenemos en 
-            <span style="font-family: 'Lobster'; font-size: 40px; "  >Ricomida</span> .</p>
-          <a href="#" class="btn btn-danger boton3" style="font-family: 'Cabin Regular': font-size: 26px; " >Empezar</a>
-        </div>
-      </div>
-  
-    <footer class="text-center text-white">
-        <h1 class="pt-3" style="font-family: 'Lobster'; font-size: 37px;"   >Ricomida</h1>
-    </footer>
-      
 
          <!--jQuery 3.3.1 sin slim-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

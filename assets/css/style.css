@@ -12,12 +12,13 @@ header {
 .trabajos {
   background-color: #660066;
   height: auto;
-  min-height: 700px;
+  min-height: 800px;
 }
 
 .oscuro{
   background: #660066;
   color: #ffffff;
+  height: auto;
 }
 .oscuro a {
   color: #ffffff;
