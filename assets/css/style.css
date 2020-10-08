@@ -2,15 +2,26 @@
 header {
   background-image: url('../img/ME.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
+  background-size: auto;
+  background-position: center;
   padding-bottom: 10rem;
+  width: 10000px;
 }
 
 
 .trabajos {
   background-color: #660066;
-  height: 700px;
+  height: auto;
+  min-height: 700px;
+}
+
+.oscuro{
+  background: #660066;
+  color: #ffffff;
+}
+.oscuro a {
+  color: #ffffff;
+  text-align: none;
 }
 
 .sl-1{
