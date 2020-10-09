@@ -2,21 +2,20 @@
 header {
   background-image: url('../img/ME.jpg');
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-position: center;
   padding-bottom: 10rem;
-  width: 10000px;
 }
 
 
 .trabajos {
-  background-color: #660066;
+  background-color: saddlebrown;
   height: auto;
   min-height: 800px;
 }
 
 .oscuro{
-  background: #660066;
+  background: saddlebrown;
   color: #ffffff;
   height: auto;
 }
@@ -25,41 +24,8 @@ header {
   text-align: none;
 }
 
-.sl-1{
-  height: 170px;
-  width: 233px;
+.nombre{
+  margin-top: 400px;
 }
-
-.tarjeta2 {
-  background-color: #DC3545;
-  height: 712px;
-}
-.tarjeta3 {
-  margin-top: 200px;
-  vertical-align: middle;
-}
-footer {
-  background-color: #373A3C;
-  height: 120px;
-  
-}
-
-.carousel-indicators {
-  top: 200px;
-
-}
-
-.carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: black;
-}
-
-.boton3{
-  width: 233px;
-  border-color: white;
-}
-
 
 
